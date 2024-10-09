@@ -1,0 +1,99 @@
+{
+  "locations": [
+    {
+      "id": "ship",
+      "name": "El Galeón",
+      "description": "Tu fiel navío, listo para zarpar hacia la aventura.",
+      "backgroundImage": "/src/assets/ship-background.jpg",
+      "sentenceTemplates": [
+        "El {noun} {verb} su {noun} antes de {verb}.",
+        "Los {noun:plural} {verb} el/la {noun} para {verb}.",
+        "Nosotros {verb} el/la {noun} en el/la {noun}.",
+        "El/La {noun} {verb} {noun} desde el/la {noun}.",
+        "Vosotros {verb} las/los {noun:plural} para aprovechar el/la {noun}.",
+        "El/La {noun} {verb} {noun} en el/la {noun} de {noun}.",
+        "Tú {verb} el/la {noun} con {adjective} {noun}.",
+        "Ellos {verb} {noun:plural} de {noun:plural} en la/el {noun}.",
+        "Yo {verb} el/la {noun} para buscar {noun:plural} {adjective:plural}.",
+        "El/La {noun} del/de la {noun} {verb} '{exclamation}' sin parar."
+      ]
+    },
+    {
+      "id": "island",
+      "name": "Isla Misteriosa",
+      "description": "Una isla envuelta en misterio y tesoros ocultos.",
+      "backgroundImage": "/src/assets/island-background.jpg",
+      "sentenceTemplates": [
+        "Si {verb:nosotros}, encontraremos el/la {noun}.",
+        "El/La {noun} {verb} su {noun} para abrir paso en la/el {noun}.",
+        "Nosotros {verb} {noun:plural} para proteger el/la {noun}.",
+        "Tú {verb} el/la {noun} del/de la {noun} con tu {noun}.",
+        "Los/Las {noun:plural} de la isla {verb} nuestros/as {noun:plural}.",
+        "Yo {verb} la/el {noun} de {noun} para celebrar el/la {noun}.",
+        "Vosotros {verb} el/la {noun} para no perderos en la/el {noun}.",
+        "El/La {noun} {verb} '{exclamation}' cuando ve a los/las {noun:plural}.",
+        "Ellas {verb} {noun:plural} {adjective:plural} para saciar el/la {noun}.",
+        "El/La {noun} {verb} un/a {noun} de {noun} de {noun}."
+      ]
+    },
+    {
+      "id": "cave",
+      "name": "Cueva del Tesoro",
+      "description": "Una cueva oscura donde se esconden los secretos más valiosos.",
+      "backgroundImage": "/src/assets/cave-background.jpg",
+      "sentenceTemplates": [
+        "Nosotros {verb} con cuidado para evitar las/los {noun:plural}.",
+        "El/La {noun} {verb} su {noun} para iluminar el/la {noun}.",
+        "Tú {verb} el/la {noun} del/de la {noun} con manos {adjective:plural}.",
+        "Los/Las {noun:plural} {verb} sobre nuestras/os {noun:plural}.",
+        "Yo {verb} un/a {noun} para abrir el/la {noun} del/de la {noun}.",
+        "El/La {noun} {verb} por las/los {noun:plural} de la/el {noun}.",
+        "Vosotros {verb} las/los {noun:plural} en vuestros/as {noun:plural}.",
+        "Ellos {verb} un/a {noun} {adjective} al pisar un/a {noun} {adjective}.",
+        "La/El {noun} de {noun} {verb} en la oscuridad.",
+        "Nosotros {verb} un/a {noun} {adjective} detrás de un/a {noun}."
+      ]
+    }
+  ],
+  "verbLookup": {
+    "present": {
+      "yo": ["pongo", "levo", "escondo", "avisto", "izo", "vierto", "sostengo", "canto", "uso", "grito"],
+      "tu": ["pones", "levas", "escondes", "avistas", "izas", "viertes", "sostienes", "cantas", "usas", "gritas"],
+      "el/ella": ["pone", "leva", "esconde", "avista", "iza", "vierte", "sostiene", "canta", "usa", "grita"],
+      "nosotros": ["ponemos", "levamos", "escondemos", "avistamos", "izamos", "vertemos", "sostenemos", "cantamos", "usamos", "gritamos"],
+      "vosotros": ["ponéis", "leváis", "escondéis", "avistáis", "izáis", "vertéis", "sostenéis", "cantáis", "usáis", "gritáis"],
+      "ellos/ellas": ["ponen", "levan", "esconden", "avistan", "izan", "vierten", "sostienen", "cantan", "usan", "gritan"]
+    },
+    "past": {
+      "yo": ["puse", "levé", "escondí", "avisté", "icé", "vertí", "sostuve", "canté", "usé", "grité"],
+      "tu": ["pusiste", "levaste", "escondiste", "avistaste", "izaste", "vertiste", "sostuviste", "cantaste", "usaste", "gritaste"],
+      "el/ella": ["puso", "levó", "escondió", "avistó", "izó", "vertió", "sostuvo", "cantó", "usó", "gritó"],
+      "nosotros": ["pusimos", "levamos", "escondimos", "avistamos", "izamos", "vertimos", "sostuvimos", "cantamos", "usamos", "gritamos"],
+      "vosotros": ["pusisteis", "levasteis", "escondisteis", "avistasteis", "izasteis", "vertisteis", "sostuvisteis", "cantasteis", "usasteis", "gritasteis"],
+      "ellos/ellas": ["pusieron", "levaron", "escondieron", "avistaron", "izaron", "vertieron", "sostuvieron", "cantaron", "usaron", "gritaron"]
+    },
+    "future": {
+      "yo": ["pondré", "levaré", "esconderé", "avistaré", "izaré", "verteré", "sostendré", "cantaré", "usaré", "gritaré"],
+      "tu": ["pondrás", "levarás", "esconderás", "avistarás", "izarás", "verterás", "sostendrás", "cantarás", "usarás", "gritarás"],
+      "el/ella": ["pondrá", "levará", "esconderá", "avistará", "izará", "verterá", "sostendrá", "cantará", "usará", "gritará"],
+      "nosotros": ["pondremos", "levaremos", "esconderemos", "avistaremos", "izaremos", "verteremos", "sostendremos", "cantaremos", "usaremos", "gritaremos"],
+      "vosotros": ["pondréis", "levaréis", "esconderéis", "avistaréis", "izaréis", "verteréis", "sostendréis", "cantaréis", "usaréis", "gritaréis"],
+      "ellos/ellas": ["pondrán", "levarán", "esconderán", "avistarán", "izarán", "verterán", "sostendrán", "cantarán", "usarán", "gritarán"]
+    }
+  },
+  "nounLookup": {
+    "singular": ["capitán", "marinero", "mapa", "tesoro", "vigía", "vela", "cocinero", "ron", "timón", "grumete", "canción", "catalejo", "loro", "barco", "isla", "cueva", "cofre", "espada", "pirata", "brújula"],
+    "plural": ["capitanes", "marineros", "mapas", "tesoros", "vigías", "velas", "cocineros", "rones", "timones", "grumetes", "canciones", "catalejos", "loros", "barcos", "islas", "cuevas", "cofres", "espadas", "piratas", "brújulas"]
+  },
+  "adjectiveLookup": {
+    "singular": {
+      "masculine": ["valiente", "astuto", "feroz", "leal", "borracho", "viejo", "joven", "rápido", "fuerte", "audaz"],
+      "feminine": ["valiente", "astuta", "feroz", "leal", "borracha", "vieja", "joven", "rápida", "fuerte", "audaz"]
+    },
+    "plural": {
+      "masculine": ["valientes", "astutos", "feroces", "leales", "borrachos", "viejos", "jóvenes", "rápidos", "fuertes", "audaces"],
+      "feminine": ["valientes", "astutas", "feroces", "leales", "borrachas", "viejas", "jóvenes", "rápidas", "fuertes", "audaces"]
+    }
+  },
+  "exclamations": ["¡Tierra a la vista!", "¡Por mil doblones!", "¡Rayos y centellas!", "¡A babor!", "¡A estribor!", "¡Hombre al agua!", "¡Preparad los cañones!", "¡Iza la bandera pirata!", "¡Abordaje!", "¡Motín a bordo!"]
+}
